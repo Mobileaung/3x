@@ -9,9 +9,9 @@ readonly SCRIPT_VERSION="1.0.0"
 readonly TARGET_DIR="/var/lib/pasarguard/templates/subscription"
 readonly TARGET_FILE="${TARGET_DIR}/index.html"
 readonly ENV_FILE="/opt/pasarguard/.env"
-readonly INSTALLER_RAW="https://raw.githubusercontent.com/Pasham0/PGClockFusion/main/install.sh"
+readonly INSTALLER_RAW="https://raw.githubusercontent.com/phyoko/3x/main/install.sh"
 
-readonly URL_FUSION="https://raw.githubusercontent.com/Pasham0/PGClockFusion/main/index.html"
+readonly URL_FUSION="https://raw.githubusercontent.com/phyoko/3x/main/index.html"
 
 # When run via "curl | bash", stdin is the pipe — re-download and re-run from a real file.
 if [[ ! -t 0 ]] && [[ -z "${PGCLOCK_INSTALL_REEXEC:-}" ]]; then
